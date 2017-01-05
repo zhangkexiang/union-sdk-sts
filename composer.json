@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel-dev-common/union-config":"*"
+        "laravel-dev-common/union-config":"*",
+        "laravel-dev-common/union-sdk-alicore":"*"
     },
     "replace": {
     },
