@@ -1,0 +1,38 @@
+{
+    "name": "laravel-dev-common/union-sdk-sts",
+    "description": "Laravel dev sdk util sts",
+    "type":"util",
+    "keywords": ["log", "util"],
+    "license": "MIT",
+    "homepage": "https://github.com/zhangkexiang/union-sdk-sts",
+    "authors": [
+        {
+            "name": "coding",
+            "email": "zhangkexiang@qingdao1024.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel-dev-common/union-config":"*"
+    },
+    "replace": {
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "files": [
+        ],
+        "psr-4": {
+            "Union\\Sdk\\Sts\\": "src/"
+        }
+    },
+    "suggest": {
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
+
