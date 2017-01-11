@@ -25,11 +25,11 @@ use Union\Sdk\AliCore\DefaultAcsClient;
 
 class StsEntrance
 {
-	public static function getAssumeRole($sessionname){
+	public static function getAssumeRole($sessionname,$confpath='union.sdk.sts'){
 
 		CoreEntrance::init();
 
-		$conf = union_config('union.sdk.sts');
+		$conf = union_config($confpath);
 
 		// 你需要操作的资源所在的region，STS服务目前只有杭州节点可以签发Token，签发出的Token在所有Region都可用
 		// 只允许子用户使用角色
