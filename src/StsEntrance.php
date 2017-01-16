@@ -51,7 +51,7 @@ class StsEntrance
 		if($response->getStatus()==200){
 			return json_decode($response->getBody(),true);//返回数组
 		}else{
-			return [];
+			return ['error'=>json_decode($response->getBody(),true)];
 		}
 	}
 }
